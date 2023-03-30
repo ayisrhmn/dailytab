@@ -1,0 +1,39 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
+
+html,
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main .clock {
+  display: flex;
+  flex-direction: row;
+}
+
+.main .clock .hour,
+.main .clock .minute {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.main .clock .separator {
+  font-size: 96px;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
