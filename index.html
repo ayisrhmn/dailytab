@@ -11,7 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- stylesheet -->
-    <link href="/src/styles/app.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="/assets/lib/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/src/styles/app.css" />
   </head>
 
   <body>
@@ -21,11 +25,55 @@
         <p class="separator">:</p>
         <p class="minute">00</p>
       </div>
+      <div class="fulldate">
+        <i class="fa fa-calendar"></i>
+        <p class="date"></p>
+      </div>
+      <div class="quotes">
+        <p class="text"></p>
+        <p class="text-by"></p>
+      </div>
+      <!-- <div class="info-top">
+        <div></div>
+        <div class="github-actions">
+          <div class="star-github">
+            <iframe
+              src="https://ghbtns.com/github-btn.html?user=ayisrhmn&repo=dailytab&type=star&count=true"
+              frameborder="0"
+              scrolling="0"
+              width="150"
+              height="20"
+              title="GitHub"
+            ></iframe>
+          </div>
+          <div class="follow-github">
+            <iframe
+              src="https://ghbtns.com/github-btn.html?user=ayisrhmn&type=follow"
+              frameborder="0"
+              scrolling="0"
+              width="170"
+              height="20"
+              title="GitHub"
+            ></iframe>
+          </div>
+        </div>
+      </div> -->
+      <div class="info-bottom">
+        <a class="author-img" href="#">
+          <i class="fa fa-camera"></i>
+          <p class="author"></p>
+        </a>
+        <a class="source-code" href="https://github.com/ayisrhmn/dailytab">
+          <i class="fa fa-github"></i>
+          <p>Source code</p>
+        </a>
+      </div>
     </main>
 
     <!-- javascript -->
-    <script src="/src/script/lib/jquery/jquery.min.js"></script>
-    <script src="/src/script/lib/moment/moment.min.js"></script>
+    <script src="/assets/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/lib/moment/moment.min.js"></script>
+    <script src="/src/script/utils.js"></script>
     <script src="/src/script/app.js"></script>
   </body>
 </html>

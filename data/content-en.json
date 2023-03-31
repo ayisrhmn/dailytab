@@ -1,0 +1,41 @@
+{
+  "version": "2023.03.31",
+  "content": [
+    {
+      "id": 1,
+      "text": "To live a creative life, we must lose our fear of being wrong.",
+      "text_by": "Anonymous",
+      "reference": "https://www.inc.com/lolly-daskal/100-motivational-quotes-for-inspiring-you-to-succeed.html"
+    },
+    {
+      "id": 2,
+      "text": "All our dreams can come true if we have the courage to pursue them.",
+      "text_by": "Walt Disney",
+      "reference": "https://www.inc.com/lolly-daskal/100-motivational-quotes-for-inspiring-you-to-succeed.html"
+    },
+    {
+      "id": 3,
+      "text": "Success is walking from failure to failure with no loss of enthusiasm.",
+      "text_by": "Winston Churchill",
+      "reference": "https://www.inc.com/lolly-daskal/100-motivational-quotes-for-inspiring-you-to-succeed.html"
+    },
+    {
+      "id": 4,
+      "text": "Try not to become a person of success, but rather try to become a person of value.",
+      "text_by": "Albert Einstein",
+      "reference": "https://www.inc.com/lolly-daskal/100-motivational-quotes-for-inspiring-you-to-succeed.html"
+    },
+    {
+      "id": 5,
+      "text": "Life is not about finding yourself. Life is about creating yourself.",
+      "text_by": "Lolly Daskal",
+      "reference": "https://www.inc.com/lolly-daskal/100-motivational-quotes-for-inspiring-you-to-succeed.html"
+    },
+    {
+      "id": 6,
+      "text": "All progress takes place outside the comfort zone.",
+      "text_by": "Michael John Bobak",
+      "reference": "https://www.inc.com/lolly-daskal/100-motivational-quotes-for-inspiring-you-to-succeed.html"
+    }
+  ]
+}
