@@ -5,9 +5,10 @@
       const doRenderDateTime = () => {
         const hour = moment().format('HH');
         const minute = moment().format('mm');
-        const fullDate = moment().format('dddd, DD MMMM YYYY');
+        const fullDate = moment().format('dddd, DD MMMM YYYY HH:mm:ss');
 
         $('.clock .hour').text(hour);
+        $('.clock .separator').text(':');
         $('.clock .minute').text(minute);
         $('.fulldate .date').text(fullDate);
       };

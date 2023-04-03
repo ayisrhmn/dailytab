@@ -1,12 +1,9 @@
-/* import google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap');
-
 :root {
   --font-family: 'Plus Jakarta Sans', sans-serif;
   --white: #ffffff;
   --black: #000000;
-  --shadow: #414141;
-  --bg-blur: rgba(0, 0, 0, 0.4);
+  --bg-blur: rgba(0, 0, 0, 0.25);
+  --text-shadow: 1px 1px 40px rgba(0, 0, 0, 0.3);
 }
 
 html,
@@ -50,7 +47,7 @@ p {
   font-size: 120px;
   font-weight: 600;
   color: var(--white);
-  text-shadow: 1px 1px 4px var(--shadow);
+  text-shadow: var(--text-shadow);
 }
 
 .main .clock .separator {
@@ -60,7 +57,7 @@ p {
   margin-left: -6px;
   margin-right: -6px;
   color: var(--white);
-  text-shadow: 1px 1px 4px var(--shadow);
+  text-shadow: var(--text-shadow);
 }
 
 .main .fulldate {
@@ -70,17 +67,17 @@ p {
 }
 
 .main .fulldate i.fa {
-  font-size: 16px;
+  font-size: 12px;
   color: var(--white);
   margin-top: 1px;
   margin-right: 6px;
+  text-shadow: var(--text-shadow);
 }
 
 .main .fulldate .date {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 12px;
   color: var(--white);
-  text-shadow: 1px 1px 4px var(--shadow);
+  text-shadow: var(--text-shadow);
 }
 
 .main .quotes .text {
@@ -89,8 +86,8 @@ p {
   font-style: italic;
   color: var(--white);
   margin-top: 50px;
-  text-shadow: 1px 1px 4px var(--shadow);
   text-align: center;
+  text-shadow: var(--text-shadow);
 }
 
 .main .quotes .text-by {
@@ -99,11 +96,11 @@ p {
   font-style: italic;
   color: var(--white);
   text-align: center;
-  text-shadow: 1px 1px 4px var(--shadow);
   margin-top: 10px;
+  text-shadow: var(--text-shadow);
 }
 
-/* .main .info-top {
+.main .info-top {
   position: absolute;
   width: 100%;
   top: 10px;
@@ -112,15 +109,36 @@ p {
   align-items: center;
 }
 
-.main .info-top .github-actions {
+.main .info-top .github-btn {
   display: flex;
   flex-direction: row;
-  padding: 10px 20px 10px 20px;
+  background-color: #f3f6f8;
+  padding: 4px 8px 4px 8px;
+  border-radius: 3px;
+  border-width: 1px solid grey;
+  box-shadow: var(--text-shadow);
+  transition: 0.2s;
+  margin: 10px 20px 10px 20px;
 }
 
-.main .info-top .github-actions .star-github {
-  margin-right: -112px;
-} */
+.main .info-top .github-btn:hover {
+  background-color: #e9ebef;
+}
+
+.main .info-top .github-btn i.fa {
+  font-size: 14px;
+  color: var(--black);
+  margin-top: 2px;
+  margin-right: 4px;
+}
+
+.main .info-top .github-btn p {
+  font-size: 12px;
+  color: var(--black);
+  font-family: Arial, Helvetica, sans-serif !important;
+  letter-spacing: 0 !important;
+  margin-top: 1.2px;
+}
 
 .main .info-bottom {
   position: absolute;
@@ -139,23 +157,23 @@ p {
 }
 
 .main .info-bottom .author-img i.fa,
-.main .info-bottom .author-img .author {
+.main .info-bottom .author-img p.author {
   font-size: 12px;
   color: var(--white);
-  text-shadow: 1px 1px 4px var(--shadow);
+  text-shadow: var(--text-shadow);
 }
 
 .main .info-bottom .author-img i.fa,
 .main .info-bottom .source-code i.fa {
   margin-top: 3px;
-  margin-right: 6px;
+  margin-right: 4px;
 }
 
 .main .info-bottom .source-code i.fa,
 .main .info-bottom .source-code p {
   font-size: 12px;
   color: var(--white);
-  text-shadow: 1px 1px 4px var(--shadow);
+  text-shadow: var(--text-shadow);
 }
 
 .main .info-bottom .source-code i.fa {
